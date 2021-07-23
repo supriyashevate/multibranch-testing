@@ -1,18 +1,11 @@
 pipeline {
-
-    agent {
-        node {
-            label 'master'
-        }
-    }
-
+    agent any
     stages {
-        
         stage('Deploying Branch') {
             steps {
                 cleanWs()
                 sh """
-                echo "DEploying master branch"
+                echo "Deploying master branch"
                 """
             }
         }
