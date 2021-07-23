@@ -2,7 +2,7 @@ pipeline {
 
     agent {
         node {
-            echo 'Hello'
+            echo 'Hello from feature'
         }
     }
 
