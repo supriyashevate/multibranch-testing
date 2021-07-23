@@ -5,7 +5,7 @@ pipeline {
             steps {
                 cleanWs()
                 sh """
-                echo "Deploying dev branch"
+                echo "Deploying dev branch now !!!"
                 """
             }
         }
