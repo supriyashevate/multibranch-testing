@@ -1,13 +1,6 @@
 pipeline {
-
-    agent {
-        node {
-            echo 'Hello from feature'
-        }
-    }
-
+    agent any
     stages {
-        
         stage('Deploying Branch') {
             steps {
                 cleanWs()
